@@ -18,8 +18,8 @@ require_relative './lib/order_repository'
 
 class Application
   
-  def initialize(database_name, io, order_repository, item_repository)
-  DatabaseConnection.connect(database_name)
+  def initialize(shop-manager-test, io, order_repository, item_repository)
+  DatabaseConnection.connect(shop-manager-test)
   @io = io
   @order_repository = order_repository
   @item_repository = item_repository
